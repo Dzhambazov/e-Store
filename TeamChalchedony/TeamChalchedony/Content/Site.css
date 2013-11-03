@@ -1,0 +1,169 @@
+﻿body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/* styles for removing the background from form */
+.no-color {
+    background-color: white;
+    border-style: none;
+}
+
+div#AdminMenu {
+    display: none;
+}
+
+#MainContent_GridViewProducts tr {
+    cursor: pointer;
+}
+
+    #MainContent_GridViewProducts tr:hover {
+        background-color: #ff6a00;
+    }
+
+#MainContent_GridViewOrders tr {
+    cursor: default;
+}
+
+    #MainContent_GridViewOrders tr:hover {
+        background-color: #EEEEFF;
+    }
+
+#MainContent_GridViewProducts th, #EditCategoriesContainer th {
+    display: none;
+}
+
+table, tr, td {
+    border: none;
+}
+
+td {
+    padding: 10px;
+    margin: 10px;
+}
+
+#categories, #mainPageProductsContainer {
+    float: left;
+}
+
+    #mainPageProductsContainer:after {
+        clear: both;
+    }
+
+#mainPageProductsContainer {
+    width: 750px;
+    margin-left: 100px;
+    background: lightgrey;
+}
+
+footer {
+    float: left;
+    text-align: center;
+    width: 100%;
+    min-height: 100%;
+    background: #181818;
+    color: #ededed;
+    margin-top: 25px;
+}
+
+td {
+    min-width: 250px;
+    font-size: 20px;
+}
+
+#mainPageProductsContainer table tr:hover td:nth-child(2) {
+    font-weight: bold;
+}
+
+#mainPageProductsContainer table tr:hover td:nth-child(3) {
+    color: #EEEEFF;
+    font-size: 30px;
+}
+
+#mainPageProductsContainer table:last-child tr:hover td:nth-child(3) {
+    font-size: 20px;
+}
+
+tr:last-child td {
+    max-width: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#ListItemAdminPanel div {
+    display: none;
+}
+
+#ListItemAdminPanel:hover div {
+    display: block;
+}
+
+#AdminMenu_SkipLink {
+    display: none;
+}
+
+#MainContent_GridViewEdintCategiries tr:hover {
+    color: #EEEEFF;
+    background: #763803;
+    cursor: pointer;
+}
+
+#MainContent_NewUserPanel, #MainContent_EditCategoryOldCatName {
+    margin-top: 20px;
+}
+
+#EditProductWrapper, #ImageControl, #DeleteDialog {
+    float: left;
+}
+
+.block {
+    display: block;
+}
+
+#custom-search-form {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+
+#SiteMapPathBreadcrump {
+    font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
+    color: #ff6a00;
+    text-shadow: 0px 2px 3px #555;
+    margin-bottom:10px;
+    display:block;
+}
