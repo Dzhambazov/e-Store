@@ -12,7 +12,7 @@
             <section id="loginForm">
                 
                 <fieldset class="form-horizontal">
-                    <legend>Use a local account to log in.</legend>
+                    <legend>Use a local account to log in. d</legend>
                       <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
                         <p class="text-error">
                             <asp:Literal runat="server" ID="FailureText" />
